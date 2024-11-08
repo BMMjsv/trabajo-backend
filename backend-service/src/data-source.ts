@@ -1,6 +1,6 @@
 import "reflect-metadata";
 import { DataSource } from "typeorm";
-import { Product } from "./entities/videojuegosmóviles";
+import { Product } from "./entities/juegos";
 
 
 export const AppDataSource = new DataSource({

@@ -1,7 +1,7 @@
 import express, { Application } from "express";
 import cors from "cors";
 import { AppDataSource } from "./data-source";
-import productRoutes from "./routes/productRoutes";
+import productRoutes from "./routes/juegosRoutes";
 import swaggerUI from "swagger-ui-express";
 import swaggerSpec from "./swagger/swagger";
 
